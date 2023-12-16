@@ -209,6 +209,7 @@ int main()
             playerView[r - 1][c - 1] = -1;
         }
     }
+    clearScreen();
     cout <<"You win the game! Congrats! There is the ships!"<< endl;
     cout <<"You made "<<shots<<" shots"<<endl;
     for (int i = 0; i < n; i++)
